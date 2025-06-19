@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readme-ai-genie-py"
+version = "1.0.1"
+authors = [
+    { name="Shivadeepak", email="shivadeepak.dev@gmail.com" },
+]
+description = "An AI-powered CLI that scans your project and automatically generates a stunning, professional README.md using Groq and Llama 3."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+keywords = ["readme", "cli", "documentation", "ai", "groq", "llama3", "automation", "developer-tools", "readme-generator"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "nest_asyncio>=1.5,<2.0"
+,
+    "questionary>=2.0,<3.0",
+    "python-dotenv>=1.0,<2.0",
+    "click>=8.0,<9.0",
+    "pathspec>=0.12,<1.0",
+    "rich>=13.0,<14.0",
+    "httpx>=0.27,<1.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff", "build", "twine"]
+
+[project.urls]
+"Homepage" = "https://github.com/shivadeepak99/readme-ai-genie-py"
+"Bug Tracker" = "https://github.com/shivadeepak99/readme-ai-genie-py/issues"
+
+[project.scripts]
+readme-ai-genie-py = "readme_ai_genie.__main__:cli"

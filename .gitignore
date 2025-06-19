@@ -1,0 +1,27 @@
+# 🔥 Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+...
+
+# 🛠️ Build Outputs
+build/
+dist/
+*.egg-info/
+...
+
+# 🧪 Environments
+.env
+env/
+venv
+...
+
+# 🧠 IDEs & Tools
+.idea/
+.vscode/
+
+# 📜 Logs (optional)
+*.log
+*.out
