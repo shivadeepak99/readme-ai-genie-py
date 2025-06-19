@@ -61,7 +61,7 @@ All commands are run from the root of the project you want to document.
 ![saved](assets/imgp6.png)
 
 
-###  This is the exact readme generated after i did the above examples
+###  This is the exact readme generated after i did the above for a simple piano project
 <details>
   <summary><strong>📂 Sample Embedded README: "Code the Beat"</strong></summary>
 
