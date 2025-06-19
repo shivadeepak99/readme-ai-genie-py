@@ -10,8 +10,13 @@ permissions:
 
 jobs:
   publish:
-    environment: pypi
+    name: Publish Python Package 📦
     runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/readme-ai-genie-py/
+    if: github.event.release.tag_name != ''
+
     steps:
       - uses: actions/checkout@v3
 
