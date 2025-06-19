@@ -9,8 +9,10 @@ __pycache__/
 # 🛠️ Build Outputs
 build/
 dist/
+.dist/
 *.egg-info/
 ...
+.venv/
 
 # 🧪 Environments
 .env
