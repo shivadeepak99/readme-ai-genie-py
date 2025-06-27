@@ -1,9 +1,9 @@
 # 🧞‍♂️ readme-ai-genie (Python Edition) 🐍✨
 
-[![PyPI version](https://img.shields.io/pypi/v/readme-ai-genie-py)](https://pypi.org/project/readme-ai-genie-py/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/shivadeepak99/readme-ai-genie-py)](https://github.com/shivadeepak99/readme-ai-genie-py/releases)
-![Publish to PyPI](https://github.com/shivadeepak99/readme-ai-genie-py/actions/workflows/publish.yml/badge.svg)
+
+
 
 > **Your project’s personal AI stylist for killer documentation.**  
 > 🪄 From skeleton code to storybook-ready—let our AI genie craft and style your README like a pro, powered by **Groq's blazing-fast LLMs**.
