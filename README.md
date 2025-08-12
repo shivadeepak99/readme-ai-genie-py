@@ -1,5 +1,5 @@
 # 🧞‍♂️ readme-ai-genie (Python Edition) 🐍✨
-#  Will Be Soon Available on PYPI ...
+#  Will Be Soon Available on PYPI ... 
 ## Opensource
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
